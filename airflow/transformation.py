@@ -7,11 +7,11 @@ from airflow.utils.dates import timedelta
 from airflow.utils.dates import days_ago
 
 default_args = {
-    "owner": "jedisam",
+    "owner": "Bekalu",
     #'start_date': airflow.utils.dates.days_ago(2),
     # 'end_date': datetime(),
     # 'depends_on_past': False,
-    "email": ["yidisam18@gmail.com"],
+    "email": ["bekiman21@gmail.com"],
     "email_on_failaure": False,
     #'email_on_retry': False,
     # If a task fails, retry it once after waiting
