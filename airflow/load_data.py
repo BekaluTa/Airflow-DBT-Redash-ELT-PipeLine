@@ -9,11 +9,11 @@ from airflow.utils.dates import days_ago
 from airflow.operators.email_operator import EmailOperator
 
 default_args = {
-    "owner": "Bekalu",
+    "owner": "jedisam",
     #'start_date': airflow.utils.dates.days_ago(2),
     # 'end_date': datetime(),
     # 'depends_on_past': False,
-    "email": ["bekiman21@gmail.com"],
+    "email": ["yidisam18@gmail.com"],
     "email_on_failaure": False,
     #'email_on_retry': False,
     # If a task fails, retry it once after waiting
@@ -61,7 +61,7 @@ load_data = MySqlOperator(
 )
 
 email = EmailOperator(
-    to="bekiman21@gmail.com",
+    to="yidisam18@gmail.com",
     subject="Data migrated successfully",
     html_content="<h3>Data migrated successfully</h3>",
 )
