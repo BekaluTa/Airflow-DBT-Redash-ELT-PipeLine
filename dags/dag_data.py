@@ -36,7 +36,7 @@ with DAG(
         task_id='migrate',
         python_callable=migrate_data,
         op_kwargs={
-            "path": "./dags/dataset.csv",
+            "path": "./data/dataset.csv",
             "db_table":"endpoints_trafficinfo"
         }
     )
