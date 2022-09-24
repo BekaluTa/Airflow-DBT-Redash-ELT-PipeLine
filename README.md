@@ -9,9 +9,3 @@ Using a docker-compose file, developed a completely dockerized ELT pipeline with
 -- Apache Airflow
 -- dbt
 -- Redash
-Getting Started
-Prerequisites
-Make sure you have docker installed on local machine.
-
-Docker
-DockerCompose
