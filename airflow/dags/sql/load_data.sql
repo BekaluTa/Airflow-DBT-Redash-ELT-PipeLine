@@ -1,1 +1,0 @@
-LOAD DATA INFILE '/var/lib/mysql-files/location_mod.csv' INTO TABLE vehicles FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
