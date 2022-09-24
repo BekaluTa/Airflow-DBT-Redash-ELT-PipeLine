@@ -7,7 +7,7 @@ from airflow import DAG
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 
 default_args={
-    'owner':'martinluther',
+    'owner':'Bekalu',
     'retries':5,
     'retry_delay':timedelta(minutes=2)
 }
