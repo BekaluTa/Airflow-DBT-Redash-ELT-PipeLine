@@ -1,0 +1,9 @@
+
+
+============================== 2022-11-09 18:49:38.452472 | 9893bd2b-3842-43f8-99ea-8f4514811229 ==============================
+[0m18:49:38.452472 [info ] [MainThread]: Running with dbt=1.2.0
+[0m18:49:38.453485 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\Bekalu\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m18:49:38.453485 [debug] [MainThread]: Tracking: tracking
+[0m18:49:38.508504 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDACB4EA90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDACB52820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDACB52580>]}
+[0m18:50:31.489860 [debug] [MainThread]: Starter project path: C:\Users\Bekalu\anaconda3\lib\site-packages\dbt\include\starter_project
+[0m18:50:54.985238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDA6EAE550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDACB292E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDACB29A30>]}
